@@ -1,0 +1,8 @@
+﻿@model ClientSideValidationTest.Models.NotWorking.IAddress
+<h6>Address</h6>
+@Html.LabelFor(s=>s.Postcode)
+@Html.ValidationMessageFor(s => s.Postcode)
+@Html.TextBoxFor(s => s.Postcode)<br />
+@Html.LabelFor(s=>s.Street)
+@Html.ValidationMessageFor(s => s.Street)
+@Html.TextBoxFor(s => s.Street)<br />

@@ -1,0 +1,6 @@
+﻿@using (Html.BeginForm("Index", "Home"))
+{
+    @Html.AntiForgeryToken()
+    @Html.EditorForModel()
+    <input type="submit"/>
+}

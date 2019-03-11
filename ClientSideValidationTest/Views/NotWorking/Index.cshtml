@@ -1,0 +1,5 @@
+﻿@model ClientSideValidationTest.Models.NotWorking.FlowModel
+This in a non working version of the viewmodel with unobtrusive validation
+
+<h2>Steps: @Model.Steps.Count</h2>
+@Html.Partial("_Flow", Model.ActiveStep)
