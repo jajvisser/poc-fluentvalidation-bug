@@ -25,6 +25,7 @@ namespace ClientSideValidationTest
 
             FluentValidationModelValidatorProvider.Configure(x =>
             {
+                x.ValidatorFactory = new OwnAttributedValidatorFactory();
                 x.Add(typeof(PostcodeValidator), Factory);
             });
         }

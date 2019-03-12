@@ -214,6 +214,7 @@
     <Compile Include="Models\NotWorking\FlowModel.cs" />
     <Compile Include="Models\NotWorking\Validators\PersonsStepValidator.cs" />
     <Compile Include="Models\NotWorking\Validators\MainPersonValidator.cs" />
+    <Compile Include="Models\Validators\OwnAttributedValidatorFactory.cs" />
     <Compile Include="Models\Working\Validators\MainPersonValidator.cs" />
     <Compile Include="Models\NotWorking\MainPersonViewModel.cs" />
     <Compile Include="Models\NotWorking\PersonsStepViewModel.cs" />
